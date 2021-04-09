@@ -1,0 +1,14 @@
+q = int(input(':'))
+
+i = 0
+
+r = []
+
+while i < q:
+    n = int(input('Price:'))
+    r.append(n)
+    i += 1
+s = sum(r)
+m = s / len(r)
+print(s)
+print(m)
